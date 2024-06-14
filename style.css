@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dee4b5;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #edd67d;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    color: #e6e6e6;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    padding: 350px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p.lead {
+    font-size: 1.25rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .gallery-item .card {
+    background-color: #fbf4df;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #fbf4df;
+  }
+  
+  .gallery-item .card-img-top {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .gallery-item .card-body {
+    background-color: #f3debe;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .gallery-item .card-text {
+    font-size: 14px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #cbd083;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 1400px) {
+    .hero {
+      padding: 150px 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p.lead {
+      font-size: 1.1rem;
+    }
+  
+    .container {
+      max-width: 920px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .hero {
+      padding: 100px 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p.lead {
+      font-size: 1rem;
+    }
+  
+    .container {
+      max-width: 540px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+  }
